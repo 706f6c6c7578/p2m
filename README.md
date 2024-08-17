@@ -9,7 +9,7 @@ Options:
   -passphrase string 
         diceware passphrase to use (required) 
   -words int 
-        Number of words in the mnemonic (12, 15, 18, 21, or 24) (default 24) 
+        Number of words in the mnemonic (12, 15, 18, 21, or 24) (default 24)  
   -help 
         Show this help message 
 
