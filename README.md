@@ -3,14 +3,14 @@ Usage: p2m [OPTIONS]
 
 Generate a deterministic BIP39 mnemonic from a password or convert a mnemonic to entropy.
 
-Options: 
-  -password string 
+Options:  
+  -password string  
         Deterministic password to use (required if not using -mnemonic) 
-  -words int 
+  -words int  
         Number of words in the mnemonic (12, 15, 18, 21, or 24) (default 24) 
-  -mnemonic string 
+  -mnemonic string  
         Input mnemonic to convert to entropy 
-  -help 
+  -help  
         Show this help message 
 
 Examples: 
