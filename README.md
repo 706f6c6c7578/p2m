@@ -1,20 +1,20 @@
-# dice2bip
-Create BIP39 mnemonics from a Diceware passphrase.
+# p2m
+Usage: p2m [OPTIONS]
 
-Usage: dice2bip [OPTIONS] 
-
-Generate a deterministic BIP39 mnemonic from a diceware passphrase. 
+Generate a deterministic BIP39 mnemonic from a password or convert a mnemonic to entropy.
 
 Options: 
-  -passphrase string 
-        diceware passphrase to use (required) 
+  -password string 
+        Deterministic password to use (required if not using -mnemonic) 
   -words int 
-        Number of words in the mnemonic (12, 15, 18, 21, or 24) (default 24)  
-  
+        Number of words in the mnemonic (12, 15, 18, 21, or 24) (default 24) 
+  -mnemonic string 
+        Input mnemonic to convert to entropy 
   -help 
         Show this help message 
 
-Example: 
-  dice2bip -passphrase "MyDicewarePassphrase" -words 12 
+Examples: 
+  p2m -password "MySecurePassword" -words 12 
+  p2m -mnemonic "word1 word2 word3 ... word12" 
 
-Note: Using fewer words results in less security. 24 words is recommended for maximum security. 
+Note: Using fewer words results in less security. 24 words is recommended for maximum security.
