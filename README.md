@@ -5,7 +5,7 @@ Generate a deterministic BIP39 mnemonic from a password or convert a mnemonic to
 
 Options:  
   -password string  
-        Deterministic password to use (required if not using -mnemonic) 
+        Deterministic password to use (required if not using -mnemonic)  
   -words int  
         Number of words in the mnemonic (12, 15, 18, 21, or 24) (default 24) 
   -mnemonic string  
