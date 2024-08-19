@@ -8,7 +8,7 @@ Options:
         Deterministic password to use (required if not using -mnemonic)  
   -words int  
         Number of words in the mnemonic (12, 15, 18, 21, or 24) (default 24) 
-  -mnemonic string  
+  -mnemonic string   
         Input mnemonic to convert to entropy 
   -help  
         Show this help message 
