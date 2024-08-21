@@ -15,7 +15,7 @@ Options:
         Show this help message
 
 Examples:
-  p2m -password "MySecurePassword" -words 12
+  p2m -password "MySecurePassword" -salt "MySalt" -words 12
   p2m -mnemonic "word1 word2 word3 ... word12"
 
 Note: Using fewer words results in less security. 24 words is recommended for maximum security.
